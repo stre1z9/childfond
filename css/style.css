@@ -1514,22 +1514,22 @@ section .image-container img {
     line-height: 1.4;
     margin-bottom: 10px;
   }
-  .conhelp {
+  body .conhelp {
     display: flex;
     width: 100%;
     flex-direction: column;
   }
-  .conhelp .ch {
+  body .conhelp .ch {
     width: 80%;
     display: flex;
     flex-direction: column;
   }
-  .conhelp .ch .top-con, .conhelp .ch .bot-con {
+  body .conhelp .ch .top-con, .conhelp .ch .bot-con {
     width: 100%;
     display: flex;
     flex-direction: column;
   }
-  .conhelp .ch .top-con .pocket, .conhelp .ch .bot-con .pocket {
+  body .conhelp .ch .top-con .pocket, .conhelp .ch .bot-con .pocket {
     width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
