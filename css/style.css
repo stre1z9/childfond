@@ -380,6 +380,7 @@ header button {
   gap: 10px;
 }
 .help .container .pocket .c .d {
+  justify-content: space-beetween;
   display: flex;
   flex-direction: row;
   white-space: nowrap;
