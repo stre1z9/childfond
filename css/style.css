@@ -380,8 +380,8 @@ header button {
   gap: 10px;
 }
 .help .container .pocket .c .d {
-  justify-content: space-beetween;
   display: flex;
+  justify-content: space-beetween;
   flex-direction: row;
   white-space: nowrap;
 }
@@ -1053,7 +1053,7 @@ section .image-container img {
     padding: 5px;
   }
 }
-@media (min-width: 425px) and (max-width: 480px) {
+@media (max-width: 480px) {
   body .help {
     width: 100%;
     display: flex;
