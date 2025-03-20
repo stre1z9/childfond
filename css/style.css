@@ -381,9 +381,9 @@ header button {
 }
 .help .container .pocket .c .d {
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
   white-space: nowrap;
+  justify-content: space-between;
 }
 .help .container .pocket .c .d p {
   font-family: montsem;
