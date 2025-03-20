@@ -382,7 +382,6 @@ header button {
 .help .container .pocket .c .d {
   display: flex;
   flex-direction: row;
-  gap: 25%;
   white-space: nowrap;
 }
 .help .container .pocket .c .d p {
@@ -1110,16 +1109,18 @@ section .image-container img {
     gap: 10px;
   }
   body .help .container .pocket .c .d {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-beetwen;
     white-space: nowrap;
   }
   body .help .container .pocket .c .d p {
+    width: 42%;
     font-family: montsem;
     font-size: 16px;
   }
   body .help .container .pocket .c .d .money {
+    width: 68%;
     color: #E24A4A;
   }
   body .help .container .pocket .e {
