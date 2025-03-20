@@ -1392,7 +1392,7 @@ section .image-container img {
   }
   body .news2 .nws .two {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 0px;
   }
   body .news2 .nws .two .container {
@@ -1411,6 +1411,7 @@ section .image-container img {
     border-radius: 10px;
   }
   body .news2 .nws .two .container .right-section {
+    height: fit-content;
     padding: 0px;
     width: 100%;
   }
@@ -1425,6 +1426,7 @@ section .image-container img {
     color: #F3F3F3;
   }
   body .news2 .nws .two .container .right-section p {
+    display: none;
     font-size: 12px;
   }
   body .news2 .nws .two .container:hover {
