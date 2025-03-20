@@ -1052,7 +1052,7 @@ section .image-container img {
     padding: 5px;
   }
 }
-@media (max-width: 480px) {
+@media (min-width: 425px) and (max-width: 480px) {
   body .help {
     width: 100%;
     display: flex;
@@ -1120,6 +1120,7 @@ section .image-container img {
     font-size: 16px;
   }
   body .help .container .pocket .c .d .money {
+    text-align: right;
     width: 68%;
     color: #E24A4A;
   }
