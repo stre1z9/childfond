@@ -381,7 +381,7 @@ header button {
 }
 .help .container .pocket .c .d {
   display: flex;
-  justify-content: space-beetween;
+  justify-content: space-between;
   flex-direction: row;
   white-space: nowrap;
 }
