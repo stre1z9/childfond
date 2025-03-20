@@ -1047,7 +1047,7 @@ section .image-container img {
     transform: scale(1.05);
   }
 }
-@media (max-width: 480px) and (max-width: 480px) {
+@media (min-width: 425px) and (max-width: 480px) {
   body .con .facefond {
     gap: 20px;
     padding: 5px;
@@ -1112,7 +1112,7 @@ section .image-container img {
   body .help .container .pocket .c .d {
     display: flex;
     flex-direction: row;
-    gap: 25%;
+    justify-content: space-beetwen;
     white-space: nowrap;
   }
   body .help .container .pocket .c .d p {
