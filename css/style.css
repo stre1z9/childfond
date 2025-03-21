@@ -1209,6 +1209,7 @@ section .image-container img {
     white-space: nowrap;
   }
   body .project .proj .pr .pro p {
+    display: none;
     font-family: montreg;
     font-size: 16px;
   }
@@ -1235,9 +1236,10 @@ section .image-container img {
     gap: 10px;
   }
   body .partners .cont .cont-par .part img {
-    width: 50px;
+    width: 100px;
   }
   body .partners .cont .cont-par .part p {
+    display: none;
     white-space: wrap;
     font-size: 10px;
   }
@@ -1248,9 +1250,10 @@ section .image-container img {
     justify-content: center;
   }
   body .partners .cont .cont-par .parti img {
-    width: 50px;
+    width: 100px;
   }
   body .partners .cont .cont-par .parti p {
+    display: none;
     margin-top: 10px;
     font-size: 10px;
     text-align: center;
